@@ -1,0 +1,29 @@
+<body>
+    <h1 style="color: rgb(24, 77, 77)">TV MAZE SHOWS</h1>
+
+    <!-- Load icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- The form -->
+    <form class="example" action="/search" method="post">
+        <label for="searchText">
+            -->type you search term
+        </label>
+        <input type="text" placeholder="Enter Search Term" name="searchText" id = "searchText">
+
+        <label for="my-btn">
+            -->click the button to search
+        </label>
+        <button type="submit" id = "my-btn"><i class="fa fa-search"></i></button>
+        <a href="/popularsearches" style="color: blue;font-weight: bold;font-size: x-large">Most Popular Search Terms</a>
+    </form>
+
+    <h1>{{show.name}}</h1>
+    <h2 style="color: brown">Rating: {{show.rating.average}}</h2>
+
+    <img src = {{show.image.medium}} alt="">
+    
+    {{{show.summary}}}
+    <a href="/">go back to all shows</a>
+</body>
+

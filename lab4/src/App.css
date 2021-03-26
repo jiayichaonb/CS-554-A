@@ -1,0 +1,140 @@
+
+body {
+	/* background-image: url(./img/iron_man.jpeg); */
+	background-color:hotpink;
+}
+
+.App {
+	text-align: center;
+}
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+.App-logo {
+	height: auto;
+	width: 100%;
+}
+
+input {
+	border: 1px solid blue;
+}
+.show-body {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+.App-header {
+	overflow: hidden;
+	background-color:#747474/#000000;
+	height: 600px;
+	width: auto;
+	padding: 5px;
+	color: #222;
+}
+
+.App-title {
+	/* background-color: #8e959b; */
+	font-size: 1.5em;
+	font-weight: bold;
+	color: white;
+}
+
+cite { 
+	font-weight: bold;
+}
+table {
+	align-content: center;
+	margin: auto;
+}
+td {
+	padding: 10px;
+}
+
+.App-intro {
+	font-size: large;
+}
+.cap-first-letter:first-letter {
+	text-transform: capitalize;
+}
+.col-sm-6,
+col-md-4 {
+	border: 1px;
+}
+
+.hometext {
+	max-width: 60%;
+}
+.showlink {
+	padding: 0.4rem 0.8rem;
+	background-color: white;
+	border-radius: 3px;
+	color: #8305ad;
+	text-decoration: none !important;
+	margin: 5px;
+}
+
+.showlink:hover {
+	background-color: transparent;
+	color: white;
+	border: 2px solid white;
+}
+
+li {
+	padding: 20px;
+}
+
+p {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+div {
+	text-align: center;
+}
+
+a {
+	color: blue;
+	text-decoration: none !important;
+}
+
+ul a:hover {
+	background-color: transparent;
+	color: blue;
+}
+
+ul {
+	list-style: none;
+}
+
+.title {
+	font-weight: bold;
+	color: #320444;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+	input {
+		font-size: 16px;
+	}
+}
+
+dt,
+dl {
+	padding: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+dt {
+	display: inline-block;
+}
+
+dd {
+	display: inline;
+	margin-left: 5px;
+}
