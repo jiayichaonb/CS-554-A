@@ -1,0 +1,188 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.login {
+  text-align: center
+}
+
+.form__group {
+  position: relative;
+  padding: 15px 0 0;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.form__field {
+  font-family: inherit;
+  margin-left: 25%;
+  width: 50%;
+  border: 0;
+  border-bottom: 3px solid #9b9b9b;
+  outline: 0;
+  font-size: 1.3rem;
+  color: #9b9b9b;
+  padding: 7px 0;
+  background: transparent;
+  transition: border-color 0.2s;
+}
+
+.form__field::placeholder {
+  color: transparent;
+}
+
+.form__field:placeholder-shown ~ .form__label {
+  font-size: 1.3rem;
+  cursor: text;
+  top: 20px;
+}
+
+.form__label {
+  position: absolute;
+  top: 0;
+  margin-left: 25%;
+  display: block;
+  transition: 0.2s;
+  font-size: 1rem;
+  /* color: #9b9b9b; */
+}
+
+.form__field:focus {
+  padding-bottom: 6px;
+  font-weight: 700;
+  border-width: 3px;
+  font-size: 1rem;
+  border-image-slice: 1;
+}
+
+.form__field:focus ~ .form__label {
+  position: absolute;
+  top: 0;
+  display: block;
+  transition: 0.2s;
+  font-size: 1rem;
+  color: #11998e;
+  font-weight: 700;
+}
+
+/* reset input */
+.form__field:required, .form__field:invalid {
+  box-shadow: none;
+}
+
+.searchform {
+  width: 100%;
+}
+
+.searchlabel {
+  width: 100%;
+}
+
+.searchicon {
+  color: #9b9b9b;
+  position: absolute;
+  margin-left: 23.5%;
+  margin-top: 1%;
+}
+
+.searchh1 {
+  text-align: center;
+}
+
+.home {
+  height: 1400px;
+  width: 100%;
+  background-image: url("./img/music.jpeg");
+
+}
+
+.button {
+  vertical-align: middle;
+  display: inline-block;
+  border-radius: 10px;
+  background-color: orange;
+  border: none;
+  color: black;
+  text-align: center;
+  font-size: 28px;
+  padding: 90px;
+  width: 300px;
+  height: 300px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 70px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.homeURL {
+  color: black;
+}
+
+.searchbox {
+  width: 100%;
+  min-height: 120vh;
+  background-color: #ffffff;
+}
+
+
+
+

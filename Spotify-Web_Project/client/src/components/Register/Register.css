@@ -1,0 +1,90 @@
+#register-box {
+  width: 320px;
+  height: 770px;
+  background: black;
+  color: #fff;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  padding: 0 30px;
+  margin-bottom: 100px;
+  padding-bottom: 200px;
+}
+
+.registerHere {
+  margin: 0;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 22px;
+}
+
+#register-box label {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+}
+
+#register-box input {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+#firstname {
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 60px;
+  color: #fff;
+  font-size: 16px;
+}
+
+#lastname {
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 60px;
+  color: #fff;
+  font-size: 16px;
+}
+
+#gender {
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 60px;
+  color: #fff;
+  font-size: 16px;
+}
+
+#confirmPassword {
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 60px;
+  color: #fff;
+  font-size: 16px;
+}
+
+.register {
+  border: none;
+  outline: none;
+  height: 40px;
+  background: yellow;
+  color: #000;
+  font-size: 18px;
+  border-radius: 20px;
+  margin-bottom: 100px;
+}
+
+.register:hover {
+  cursor: pointer;
+  background: #ffc107;
+  color: #000;
+}
+

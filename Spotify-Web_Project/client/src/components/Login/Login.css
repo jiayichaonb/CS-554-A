@@ -1,0 +1,32 @@
+.loginHere {
+  margin: 0;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 22px;
+}
+
+#email {
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 60px;
+  color: #fff;
+  font-size: 16px;
+}
+
+#password {
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 60px;
+  color: #fff;
+  font-size: 16px;
+}
+
+.yet {
+  color: #ffc107;
+  font-size: 18px;
+}
+
